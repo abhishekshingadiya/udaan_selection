@@ -16,13 +16,33 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <style>
+        @font-face {
+            font-family: Pixel Emulator;
+            src: url('Pixel Emulator.otf');
+        }
+        body{
+            font-family: Pixel Emulator;
 
+        }
+        .bgi{
+            position:fixed;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+            z-index:-1;
+            opacity: 0.6;}
+    </style>
 
     <script src="js/handlebars-v4.0.11.js"></script>
     <script src="js/heads.js"></script>
     <script src="js/data.js"></script>
 </head>
-<body class="blue lighten-3">
+<body>
+
+<img class="bgi" src='img/mario1.png'>
+
 <div class="fixed-action-btn vertical">
     <a class="btn-floating btn-large red">
         <i class="large material-icons">menu</i>
