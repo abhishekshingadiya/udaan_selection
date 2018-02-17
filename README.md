@@ -17,8 +17,8 @@
 # index.html
    use fixed action button using materialized CSS</br>
    use typed.js and some appropriate CSS</br> 
-   you can use a background image and create an attractive look.</br>
-   you can also create a transparent navbar.(i am not created that because I am using black colour body)</br>
+   you can use other background image and create an attractive look.</br>
+   you can also create a transparent navbar.</br>
 
 
 # event.html
